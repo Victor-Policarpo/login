@@ -41,6 +41,7 @@ section#corpo {
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
     border-radius: 10px;
+    transition: width .3, height .3;
     
     
 } 
@@ -63,6 +64,7 @@ main h1 {
 
 main p {
     padding: 5px 15px ;
+    font-size: 1.1em;
 
 }
 
@@ -94,7 +96,7 @@ main input[type=submit]:hover {
 }
 
 form a {
-    border: 1px solid black;
+    border:none;
     text-align: center;
     padding: 10px;
     padding-top: 15px;
@@ -102,18 +104,16 @@ form a {
     margin: auto;
     width: 100%;
     height: 50px;
-    background-color: #A67C7C;
     border: none;
     margin-bottom: 10px;
-    color: white;
+    color: black;
     font-size: 1.1em;
-    border-radius: 10px;
     text-decoration: none;
 }
 
 form a:hover {
-    background-color: #D9C8BF;
-    color: black;
+    color: white;
+    text-decoration: underline;
 
 }
 label {
