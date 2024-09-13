@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*TABLET*/
+
+@media screen and (min-width: 769px) and (max-width:992px) {
+
+    body {
+        background-image: linear-gradient(to top,#725D73, #A65179);
+    }
+
+    section#corpo {
+        width: 80vw;
+        height: 330px; 
+        
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center;
+    }
+
+    #formulario {
+       float: right;
+       width: 70%;
+    }
+
+    #aultima {
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    form > input[type=submit] {
+        width: 90%;
+        margin: auto;
+    }
+    input {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+}
+
+/*Monitor e Tv*/
+
+@media screen and (min-width: 993px){
+
+    body {
+        background-image: linear-gradient(to top #A65179, #725D73);
+    }
+    
+    section#corpo {
+        width: 80vw;
+        height: 330px; 
+        
+    }
+
+    div#imagem {
+        float: right;
+        width: 30%;
+        height: 100%;
+        background-position: center ;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+     }
+ 
+     #aultima {
+         width: 90%;
+         margin: auto;
+         margin-top: 5px;
+     }
+ 
+     form > input[type=submit] {
+         width: 90%;
+         margin: auto;
+     }
+    input {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+
+}
